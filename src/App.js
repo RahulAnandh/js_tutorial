@@ -1,5 +1,6 @@
 import TypesIndex from "./components/types";
 import OparatersIndex from "./components/oparaters";
+import DataTypes from "./components/data_types";
 function App() {
 
 
@@ -8,6 +9,8 @@ function App() {
 <TypesIndex/>
 <br/>
 <OparatersIndex/>
+<br/>
+<DataTypes/>
     </div>
   );
 }
