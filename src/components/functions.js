@@ -6,7 +6,6 @@ const FunctionIndex = () => {
     }
     return (
     <div>
-        *****************Functions****************
         {multiplication(a,b)}
     </div>);
 }

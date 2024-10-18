@@ -2,9 +2,8 @@ import TypesIndex from "./components/types";
 import OparatersIndex from "./components/oparaters";
 import DataTypes from "./components/data_types";
 import FunctionIndex from "./components/functions";
+import ObjectIndex from "./components/objects";
 function App() {
-
-
   return (
     <div> 
 <TypesIndex/>
@@ -14,7 +13,9 @@ function App() {
 <DataTypes/>
 <br/>
 <FunctionIndex/>
-    </div>
+<br/>
+<ObjectIndex/>
+</div>
   );
 }
 
